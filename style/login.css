@@ -1,0 +1,40 @@
+.startimg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.changeimgs {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.knockknock {
+  position: absolute;
+  left: 51%;
+  top: 45%;
+  bottom: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 8vh;
+}
+.uname {
+  width: 10vw;
+  height: 3vh;
+}
+
+.hellou {
+  color: white;
+}
+.greeting {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  transform: translateX(-50%);
+  text-shadow: rgb(230, 227, 218) 0.5vh 0.2vw 7px;
+}

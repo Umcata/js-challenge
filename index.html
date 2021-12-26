@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="hellou">
+      <form class="knockknock">
+        <input
+          class="uname"
+          required
+          maxlength="15"
+          ype="text"
+          placeholder="이름이 뭐에요?"
+        />
+        <input class="subbtn" type="submit" value="knock-knock" />
+      </form>
+      <h1 class="greeting"></h1>
+    </div>
+    <div class="clock">
+      <span class="month_day"></span>
+      <span class="time"></span>
+    </div>
+    <div class="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <div class="todo_contain" id="todo_contain">
+      <form class="todo-form">
+        <input required type="text" placeholder="To Do!" />
+      </form>
+      <ul class="todolist"></ul>
+    </div>
+    <script src="login.js"></script>
+    <script src="clock.js"></script>
+    <script src="weather.js"></script>
+    <script src="todolist.js"></script>
+  </body>
+</html>

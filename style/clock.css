@@ -1,0 +1,12 @@
+.clock {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  font-size: 2vw;
+  font-weight: bold;
+  justify-content: center;
+  align-items: flex-end;
+}

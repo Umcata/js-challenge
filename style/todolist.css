@@ -1,0 +1,38 @@
+.todo_contain {
+  position: absolute;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo-form input {
+  width: 24vw;
+  height: 4vh;
+  font-size: 1.7vw;
+  border-radius: 2vw;
+  padding-left: 1vw;
+  border: 0.4vw solid rgb(185, 226, 147);
+}
+
+.todo-form input:focus {
+  outline: none;
+}
+
+.todolist li {
+  display: flex;
+  font-size: 2vw;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+  border-bottom: 0.3vh solid black;
+  color: white;
+  font-weight: 600;
+}
+.todolist li button {
+  width: 3vw;
+  height: 3vh;
+  border-radius: 2vw;
+  background-color: rgb(255, 255, 255);
+  font-weight: 600;
+  color: red;
+}

@@ -1,0 +1,14 @@
+@import "login.css";
+@import "clock.css";
+@import "weather.css";
+@import "todolist.css";
+body {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.hidden {
+  display: none;
+}
